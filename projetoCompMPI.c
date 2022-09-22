@@ -1,3 +1,10 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <mpi.h>
+
+#define quantidadeTaylor 1000
+
+
 int main(int argc, char **argv){
         int *comecoLocal, *fimLocal, quantidadeLocal;
         int idProcesso, quantidadeProcessos;
